@@ -1,0 +1,21 @@
+[user]
+	name = Tim Matthews
+	email = trmatthe@gmail.com
+[core]
+  editor = vim
+  pager = delta
+[interactive]
+  diffFilter = delta --color-only
+[merge]
+  tool = vimdiff
+  conflictstyle = diff3
+[delta]
+  navigate = true
+  light = false
+
+[alias]
+  s = status
+	l1 = log --oneline
+	l1a = log --oneline --all
+[diff]
+	tool = vimdiff
