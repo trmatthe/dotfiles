@@ -24,3 +24,5 @@ set statusline+=\ %l:%c
 set statusline+=\ 
 
 set tabstop=2 shiftwidth=2 softtabstop=2 expandtab
+
+autocmd FileType make setlocal noexpandtab
